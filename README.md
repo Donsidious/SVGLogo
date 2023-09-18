@@ -1,23 +1,22 @@
-# SVG Logo Maker
+# SVG Logo Maker (Week-10 Challenge)
 
-## Week-10 Challenge
-
-## Table of Contents
+## Table of Contents  
 
 1. [Description](#description)
-2. [Screenshots](#screenshots)
-3. [Technologies Used](#technologies-used)
-4. [Installation](#installation)
-5. [Features](#features)
-6. [Usage Information](#usage-information)
-7. [Contribution Guidelines](#contribution-guidelines)
-8. [Test Instructions](#test-instructions)
-9. [License](#license)
-10. [Questions](#questions)
+2. [Live Recording of Application](#live-recording-of-application)
+3. [Screenshots](#screenshots)
+4. [Technologies Used](#technologies-used)
+5. [Installation](#installation)
+6. [Features](#features)
+7. [Usage Information](#usage-information)
+8. [Contribution Guidelines](#contribution-guidelines)
+9. [Test Instructions](#test-instructions)
+10. [License](#license)
+11. [Questions](#questions)
 
 ---
 
-## Description
+## Description 
 
 This application allows freelance web developers to create simple logos for their clients and projects, eliminating the need to hire a graphic designer. It utilizes Inquirer to prompt users within the command line for logo customization options, including text content (up to 3 characters), text color, logo shape (triangle, square, or circle), and shape color. Once the user answers these prompts, the application generates an SVG file based on their selections. The SVG file is then saved to the root directory of the application. The user can then open the SVG file in their browser to view the logo.
 
@@ -26,9 +25,16 @@ This project also marks the first implementation of unit testing within the appl
 
 Future development for this application could include enhanced error handling for SVG colors, additional unit testing, and the addition of more polygons and font styles for users to choose from. The application could also be expanded to include a front-end user interface, allowing users to view their logo in real-time as they make selections. This would require the use of front-end technologies such as React, HTML, and CSS.
 
-#/# Screenshots
+## live recording of application
 
-https://github.com/Donsidious/SVGLogo/issues/1#issue-1899810938
+https://drive.google.com/file/d/1f-by-EPWQ_c_bGWiUn2xAsL07QvmunM2/view
+
+## Screenshots 
+
+![Screenshot1-week-10-challenge](https://github.com/Donsidious/SVGLogo/blob/main/Screenshot%202023-09-17%20at%209.39.24%20AM.png)
+
+![Screenshot2-week-10-challenge](https://github.com/Donsidious/SVGLogo/blob/main/Screenshot%202023-09-16%20at%209.32.36%20PM.png)
+
 
 
 
@@ -51,7 +57,7 @@ https://github.com/Donsidious/SVGLogo/issues/1#issue-1899810938
 
 1. Clone the repo:
    ```
-   git clone https://github.com/rmessett15/SVG-Logo-Maker.git
+   git clone https://github.com/Donsidious/SVGLogo#screenshots
    ```
 
 2. Open in VS Code. If you do not have VS code, you must install it.
@@ -87,15 +93,9 @@ Open to collaboration. If you choose to do so, open an issue and modify any chan
 
 To run unit testing, open the terminal and use the command `npm run test`.
 
-As of now, there is one test suite with three tests. The test suite checks for a `render()` method to return a string for the corresponding SVG file with the given shape color.
-
-
-
-![Screenshot8-week-10-challenge](https://user-images.githubusercontent.com/120127903/232142745-dfe8aab8-4da0-4e8f-89b6-d153f2024825.png)
-
-![Screenshot9-week-10-challenge](https://user-images.githubusercontent.com/120127903/232142780-b9158992-dced-4da8-be89-e828b81f6023.png)
+As of now, there is one test suite with three tests. The test suite checks for a `render()` method to return a string for the corresponding SVG file with the given shape color. The test suite also checks for the `render()` method to return a string for the corresponding SVG file with the given text color. The test suite also checks for the `render()` method to return a string for the corresponding SVG file with the given text content.
 
 ## License
 
-NOTICE: This application is covered under the MIT License
+NOTICE: This application is covered under the MIT License. Please refer to the following documentation for further details on this license: [MIT License](https://opensource.org/licenses/MIT).
 
